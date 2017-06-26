@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "template_project/base.html"%}
+  {%block body_block%}
+    <h1> Welcome to index.html</h1>
+    <h2> The nav bar above me is inhereted from base.html</h2>
+    <h1>{{ text|cut:'hello'}}</h1>
+    <h1>{{ number|add:"99" }}</h1>
+
+  {% endblock %}
